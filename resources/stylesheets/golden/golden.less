@@ -1,0 +1,56 @@
+// Golden
+
+// created by Joe Mercer
+// https://github.com/joemercer
+
+// Inspired by:
+// https://github.com/phildionne/golden-bootstrap
+// http://www.pearsonified.com/2011/12/golden-ratio-typography.php
+// http://www.hongkiat.com/blog/golden-ratio-in-moden-designs/
+// http://coding.smashingmagazine.com/2013/03/12/customizing-bootstrap/
+// http://www.smashingmagazine.com/2010/02/09/applying-mathematics-to-web-design/
+
+
+
+// Include Bootstrap variables, customize freely
+@import "./bootstrap/variables.less";
+
+// Include the groundwork Bootstrap mixins and classes for conveniance
+@import "./bootstrap/mixins.less";
+@import "./bootstrap/utilities.less";
+@import "./bootstrap/print.less";
+
+// For cross-browser consistency see git.io/normalize
+@import "./bootstrap/normalize.less";
+
+// Include the basic Bootstrap 12 column grid for convensiance
+@import "./bootstrap/grid.less";
+
+// Now let's make life Golden :)
+
+// Include Golden variables, based on Bootstrap variables
+@import "./golden/variables.less";
+
+// Include Golden mixins and modules
+@import "./golden/mixins.less";
+@import "./golden/grid.less";
+@import "./golden/content.less";
+
+// Wrap overriding styles in .golden
+.golden {
+	@import "./golden-bootstrap.less";
+}
+
+// Special class for only including the Golden typography styles
+.golden-typography {
+	@import "./golden-typography/scaffolding.less";
+  @import "./golden-typography/typography.less";
+}
+
+
+
+
+
+
+
+

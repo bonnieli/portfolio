@@ -1,0 +1,33 @@
+# TODO
+_____
+
+- buy a domain and point to github pages
+
+_____
+
+# BACKLOG
+_____
+
+- add example pages
+- show actual golden ratio dimensions in examples
+- add color mixins to docs
+- add utility classes to docs
+- spend some time on list-groups
+- spend time on line heights for headers
+- add a header to main website
+- add diagrams
+- responsive typography resizing
+- spend time on golden rows
+- document golden rows
+- add sizing to .golden-content for multiples of ideal line width
+- integrate CPL into ideal line width http://www.pearsonified.com/2012/01/characters-per-line.php
+
+_____
+
+# DONE
+_____
+
+- Push it live :)
+- clean up todos
+- edit README
+_____
